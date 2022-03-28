@@ -1,0 +1,146 @@
+/* GLOBAL */
+body {
+    background-color: #9C835F;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    padding-top: 10;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+
+}
+
+.navbar > .container-fluid {
+    justify-content: left;
+}
+
+a > .backButton {
+    width: 74px;
+    height: 74px;
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 700;
+    color: #724C21; 
+    font-size: 72px;
+    line-height: 74px;
+}
+
+a > .backButton > p {
+    padding-bottom: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #724C21; 
+    font-size: 72px;
+    line-height: 74px;
+}
+
+a > .backButton > p:hover {
+    color: #F9B23D;
+}
+
+.container-fluid > img {
+    margin: auto 27px;
+    width: 60px;
+    height: 60px;
+}
+
+p.brandName {
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 700;
+    color: #F9B23D;
+}
+
+
+/* PLAYER NAME */
+.playerName > div > p {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+    color: black; 
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+
+/* ACTIONS */
+.Action {
+    position: relative;
+}
+
+.Action.row {
+    min-height: 450px;
+}
+
+button {
+    border-radius: 10%;
+    width: 120px;
+    height: 120px;
+    border: none;
+    background-color: transparent;
+}
+
+.player > button:hover {
+    background-color: #ccc;
+}
+
+.rock {
+    height: 60px; 
+    width: 90px;
+}
+
+.paper {
+    height: 100px; 
+    width: 75px;
+}
+
+.scissors {
+    height: 115px; 
+    width: 100px;
+}
+
+/* STATUS */
+.status {
+    position: relative;
+    top: 165px;
+    width: 17vw;
+    height: 110px;
+    border-radius: 5%;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 105px;
+    color: #BD0000; 
+    line-height: 110px;
+}
+
+.resultStatus {
+    position: relative;
+    top: 165px;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    transform: rotate(-30deg);
+    width: 17vw;
+    height: 110px;
+    border-radius: 5%;
+    letter-spacing: 4px;
+}
+
+
+/* REFRESH */
+.refresh > div > button {
+    width: 80px;
+    height: 80px;
+}
